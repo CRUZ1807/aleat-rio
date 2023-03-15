@@ -1,5 +1,6 @@
-    var div = document.getElementById('div');
-    function d4(){
+var bagulho = document.getElementById('section');
+var div = document.getElementById("div1" + "div2");
+function d4(){
         console.log ('dado 4 clicked');
         var resultado = Math.floor(Math.random() * 4);
         if(resultado < 1){
@@ -57,6 +58,7 @@
     }
     function dados(resultado){
         if(resultado == 1){
-            document.getElementById("")
+            div.setAttribute('style', 'display:none');
+            bagulho.setAttribute('style', 'display:block')
         }
     }
