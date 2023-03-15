@@ -21,4 +21,9 @@ img{
     height: auto;
     width: auto;
 }
-
+img:hover{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+}

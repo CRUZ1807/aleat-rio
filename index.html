@@ -10,19 +10,19 @@
 
     <title>Dados</title>
   </head>
-  <body class="container-fluid">
+  <body onload="dados()" class="container-fluid">
     <h1>Escolha o número de lados do dado</h1>
     <!--Imagens pra clicar e rodar depois-->
-    <a href="#">
-      <div class="row">
+    <a href="div1">
+      <div id="div1" class="row">
         <img onclick="d4()" src="d4.png" alt="dado 4" class="col-lg-2">
         <img onclick="d6()" src="d6.png" alt="dado 6" class="col-lg-2">
         <img onclick="d8()" src="d8.png" alt="dado 8" class="col-lg-2">
         <img onclick="d10()" src="d10.png" alt="dado 10" class="col-lg-2">
     </div>
     </a>
-    <a href="#">
-      <div class="row" id="r1">
+    <a href="div2">
+      <div id="div2" class="row" id="r1">
         <img onclick="d12()" src="d12.png" alt="dado 12" class="col-lg-2">
           <img onclick="d20()" src="d20.png" alt="dado 20" class="col-lg-2">
           <img onclick="d100()" src="d100.png" alt="dado 100" class="col-lg-2">
